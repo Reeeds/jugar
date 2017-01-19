@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="refresh" content="300" >
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Baumeler</title>
+
+    <!-- Bootstrap -->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="global.css" rel="stylesheet">
+    <link href="assets/css/lightbox.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+    <h1 class="title">Live</h1>
+    <img src="get_img_live.php" class="img-responsive live_pic" alt="Responsive image"/>
+</div>
+<div class="container">
+    <h2 class="subtitle">Album: Täglich</h2>
+    <?php include ("get_img_album_per_day.php"); ?>
+
+    <h2 class="subtitle">Album: Heute</h2>
+    <?php include ("get_img_album_today.php"); ?>
+
+
+
+</div>
+<footer>
+	<div class="container">
+		<hr>
+
+		<p>
+			<small>
+				<a href="mailto:mail@reeeds.ch?subject=Baumeler">
+					<span class="glyphicon glyphicon-envelope"></span>
+					Mail
+				</a>
+			</small>
+		</p>
+	</div> <!-- end container -->
+</footer>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/js/lightbox.js"></script>
+
+
+
+</body>
+</html>
