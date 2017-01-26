@@ -1,0 +1,104 @@
+
+%tag {
+  // general properties
+}
+
+.mycategory {
+  @extend %tag;
+}
+
+// OR
+.tag {
+  // general properties
+
+  &.mycategory {  }
+
+}
+
+
+.FreizeitHobby {
+  background-color: red;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.EssenTrinken {
+  background-color: blue;
+  border-radius: 100px;
+  padding: 5px;
+  color: white;
+}
+
+.Wohnen {
+  background-color: green;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.Bargeld {
+  background-color: yellow;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.VersicherungVorsorge {
+  background-color: orange;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.Shopping {
+  background-color: DarkMagenta ;
+  border-radius: 100px;
+  padding: 5px;
+  color: white;
+}
+
+.Haushalt {
+  background-color: DeepSkyBlue;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.Reisen {
+  background-color: GoldenRod ;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.Steuern {
+  background-color: HotPink ;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.FreizeitHobby {
+  background-color: LawnGreen ;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.Mobilitaet {
+  background-color: MediumSlateBlue ;
+  border-radius: 100px;
+  padding: 5px;
+}
+
+.GesundheitKoerper {
+  background-color: Sienna ;
+  border-radius: 100px;
+  padding: 5px;
+  color: white;
+}
+
+
+
+.keineKategorie {
+
+  border: 0.5px solid black;
+  border-radius: 100px;
+  padding: 5px;
+  background-color: yellow;
+
+}
+
