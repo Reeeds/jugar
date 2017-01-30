@@ -9,7 +9,7 @@ $("#calc").click(function(){
 
       var $tag = $('<span />').addClass(categoryResult).text(categoryResult);
 
-      $(this).find(".item-category").append($tag);
+      $(this).find(".item-category").empty().append($tag);
 
    });
 
