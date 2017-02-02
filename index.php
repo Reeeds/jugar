@@ -19,23 +19,24 @@
 </div>
 
 <div class="container">
-  <?php include ("index3.php"); ?>
-</div>
-
-
-<div class="container">
   <button id="calc">Calc</button>
   <div class="table-responsive">
     <table class="table" id="item-table">
       <thead>
         <tr>
-          <th>Nr.</th>
+          <th>Buchungsdatum</th>
           <th>Valuta</th>
           <th>Buchungstext</th>
+          <th>Details</th>
+          <th>Betragsdetail</th>
           <th>Gutschrift</th>
           <th>Belastung</th>
-          <th >Kategorie</th>
+          <th>Saldo</th>
+          <th>Kategorie_Id</th>
+
         </tr>
+        <?php include "getdata.php"; ?>
+
       </thead>
       <tbody id="item-table-body">
 

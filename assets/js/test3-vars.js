@@ -15,7 +15,7 @@ var categories = {
 };
 
 
-
+/*
 var bookings =[
   {
     "Buchungsdatum": "24.01.2017",
@@ -4368,6 +4368,3 @@ var bookings =[
     "Saldo": 2381.39
   }
 ]
-
-
-

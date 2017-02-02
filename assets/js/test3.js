@@ -1,5 +1,5 @@
 $ (document).ready(function() {
-generateBookingTable();
+// generateBookingTable();
 
 $("#calc").click(function(){
 
@@ -10,9 +10,11 @@ $("#calc").click(function(){
       var $tag = $('<span />').addClass(categoryResult).text(categoryResult);
 
       $(this).find(".item-category").empty().append($tag);
-
    });
+});
 
+$("#updateRow").click(function(){
+  alert("Hoi");
 });
 
 function evalCategories(text) {
@@ -36,22 +38,22 @@ function evalCategories(text) {
 
 }
 
-function generateBookingTable() {
-//console.log("generateTable ausgeführt");
-  var options = { items: bookings, target: $("#item-table-body")};
-  $.each(options.items, function(idx,item) {
-    $('<tr class="item">' +
-        '<td>' + idx + '</td>' +
-        '<td>' + item.Valuta + '</td>' +
-        '<td>' + item.Buchungstext + '<br>' + item.Details + '</td>' +
-        '<td>' + item.Gutschrift + '</td>' +
-        '<td>' + item.Belastung + '</td>' +
-        '<td class="item-category"></td>' +
-      '</tr>').appendTo(options.target);
-
-  });
-
-}
+// function generateBookingTable() {
+// //console.log("generateTable ausgeführt");
+//   var options = { items: bookings, target: $("#item-table-body")};
+//   $.each(options.items, function(idx,item) {
+//     $('<tr class="item">' +
+//         '<td>' + idx + '</td>' +
+//         '<td>' + item.Valuta + '</td>' +
+//         '<td>' + item.Buchungstext + '<br>' + item.Details + '</td>' +
+//         '<td>' + item.Gutschrift + '</td>' +
+//         '<td>' + item.Belastung + '</td>' +
+//         '<td class="item-category"></td>' +
+//       '</tr>').appendTo(options.target);
+//
+//   });
+//
+// }
 
 });
 
